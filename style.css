@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.start{
+    height: 40px;
+    background-color: rgba(154, 109, 57, 0.703);
+}
+.start h4 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.second{
+    height: 90px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+.menu h5{
+    color: rgb(62, 61, 61);
+    font-weight: 50px;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: normal;
+}
+.menu h1{
+    position: absolute;
+    font-size: 55px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+.img_inner{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.descripM{
+    width: 400px;
+    height: 600px;
+
+
+}
+.descripM h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #bcae82;
+}
+span{
+    opacity: 0;
+    transition: all 1s ease;
+}
+span.fade {
+    opacity: 1;
+}
+
+   
+
+.img{
+    
+    margin-top: 30px;
+    height: 625px;
+    display: flex;
+    justify-content: center;
+}
+
+.perexod {
+    top: 50px;
+    border:  1px solid rgb(62, 61, 61);
+    width: 60%;
+    height: 80vh;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: relative;
+}
+.number_3{
+    box-sizing: border-box;
+    padding: 0 auto;
+}
+ #prev {
+     position: absolute;
+     color:rgb(255, 191, 0);
+     top: 43%;
+     left: 0;
+     cursor: pointer;
+     padding: 16px;
+     font-weight: bold; 
+     font-size: 5rem;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+ }
+
+ #next {
+    position: absolute;
+    color: rgb(255, 191, 0);
+    top: 43%;
+    right: 0;
+    cursor: pointer;
+    padding: 16px;
+    font-weight: bold; 
+    font-size: 5rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+#prev:hover , #next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.dots {
+    text-align: center;
+    margin: 2%;
+
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 2px;
+    transition: background-color 0.6s ease;
+}
+
+.active{
+    background-color: #717171;
+
+}
+.fade{
+    animation: fade 1.5s;
+}
+
+.perexod_right h5{
+    width: 600px;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(62, 61, 61);
+
+}
+
+.cart{
+    padding-top: 100px;
+
+
+    
+    
+}
+.block_4{
+   text-align: center;
+}
+
+.block_4 h2{
+    transform: translateY(-470px);
+    margin-left: -900px; 
+    font-family: sans-serif;
+    color: #bbb;
+    font-size: 18px;
+}
+.block_4 h3{
+    transform: translateY(-150px);
+    margin-left: -900px; 
+    font-family: sans-serif;
+    color: #bbb;
+    font-size: 18px;
+
+}
+.block_4 h5 {
+    transform: translateY(-140px);
+    margin-left: -900px; 
+    font-family: sans-serif;
+    color: #bbb;
+    font-size: 18px;
+    
+
+}
+.book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img7{
+    margin-left: -50px;
+    display: block;
+    height: 936px;
+    width: 720px;
+    cursor: pointer;
+
+}
+.img7:hover{
+    background-position: url('/img/Rectangle\ \(8\).png');
+}
+.img16 {
+    margin-top: 0px;
+   
+
+}
+.img16:hover{
+    /* background: ; */
+}
+.img16 h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-left:20px ;
+    color: #717171 ;
+    
+    
+
+}
+
+.ring {
+    
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img17 {
+    position:relative;
+    margin-left: 90px; 
+    margin-right: 90px; 
+    transform: translateX(-190px);
+}
+.text{
+    width: 380px;
+    height: 60px;
+
+}
+.img17 h4 {
+    
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: #717171;
+
+
+}
+#togezer{
+    width: 450px;
+    height: 100px;
+    margin-top: -700px;
+    /* margin-left: 40px; */
+
+}
+#togezer h2 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 60px;
+    margin-left: 171px;
+}
+.href{
+    margin-top: 15px;
+}
+
+.endMyel {
+    margin-top: 100px;
+    background-color: rgba(154, 109, 57, 0.703);
+    height: 500px;
+
+}
+.contain{
+    transform: translateY(100px);
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.shop {
+    width: 170px;
+    height: 270px;
+    line-height: 30px;
+}
+.shop h3{
+    font-weight: 400;
+    font-size: 35px;
+    font-family: sans-serif;
+
+}
+.shop a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    line-height: 40px;
+
+}
+
+
+.rings{
+    width: 150px;
+    height: 230px;
+    line-height: 30px;
+}
+.rings h3{
+    font-weight: 400;
+    font-size: 35px;
+    font-family: sans-serif;
+
+
+}
+.rings h4 {
+    /* margin-top: 30px; */
+    color: black;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+
+}
+
+.support {
+    width: 150px;
+    height: 230px;
+    line-height: 30px;
+}
+.support h3{
+    font-weight: 400;
+    font-size: 35px;
+    font-family: sans-serif;
+
+
+}
+.support a{
+    margin-top: 15px;
+    color: black;
+    line-height: 40px;
+
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+
+}.ment {
+    width: 150px;
+    height: 230px;
+    line-height: 40px;
+}
+.ment h3{
+    font-weight: 400;
+    font-size: 35px;
+    font-family: sans-serif;
+
+
+}
+.ment a{
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    line-height: 40px;
+
+
+}.thelast {
+    width: 150px;
+    height: 230px;
+    line-height: 30px;
+}
+.thelast h3{
+    font-weight: 400;
+    font-size: 35px;
+    font-family: sans-serif;
+
+
+}
+.thelast h4{
+    margin-top: 15px;
+    color: black;
+    line-height: 40px;
+
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+
+}
